@@ -19,43 +19,21 @@ const Checkout = () => {
     return (
         <>
             <div className="container my-5">
-                {/* <div className="row g-5"> */}
-                    {/* <div className="col-md-5 col-lg-4 order-md-last">
-                        <h4 className="d-flex justify-content-between align-items-center mb-3">
-                            <span className="text-primary">Your cart</span>
-                            <span className="badge bg-primary rounded-pill">{state}</span>
-                        </h4>
-                        <ul className="list-group mb-3">
-                            {state.map(itemList)}
-
-                            <li className="list-group-item d-flex justify-content-between">
-                                <span>Total (USD)</span>
-                                <strong>${total}</strong>
-                            </li>
-                        </ul>
-
-                        <form className="card p-2">
-                            <div className="input-group">
-                                <input type="text" className="form-control" placeholder="Promo code" />
-                                <button type="submit" className="btn btn-secondary">Redeem</button>
-                            </div>
-                        </form>
-                    </div> */}
                     <div className="px-4 my-5 bg-light rounded-3 py-5">
                         <h4 className="mb-3">Billing address</h4>
                         <form className="needs-validation" novalidate="">
                             <div className="row g-3">
                                 <div className="col-sm-6">
-                                    <label htmlFor="firstName" className="form-label">First name</label>
-                                    <input type="text" className="form-control" id="firstName" placeholder="" value="" required="" />
+                                    <label html For="firstName" className="form-label">First name</label>
+                                    <input type="text" className="form-control" id="firstName" placeholder="" required="" />
                                     <div className="invalid-feedback">
                                         Valid first name is required.
                                     </div>
                                 </div>
 
                                 <div className="col-sm-6">
-                                    <label htmlFor="lastName" className="form-label">Last name</label>
-                                    <input type="text" className="form-control" id="lastName" placeholder="" value="" required="" />
+                                    <label html For="lastName" className="form-label">Last name</label>
+                                    <input type="text" className="form-control" id="lastName" placeholder=""  required="" />
                                     <div className="invalid-feedback">
                                         Valid last name is required.
                                     </div>
