@@ -9,9 +9,9 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
         <div className="container">
-        {/* <img  src="N-tra.png" alt="hii"  height={"70px"} width={"100px"}></img>  */}
           <NavLink className="navbar-brand fw-bold fs-4" to="/">
-             N-MART
+        <img  src="N-tra.png" alt="hii"  height={"35px"} width={"140px"}></img> 
+             {/* N-MART */}
           </NavLink>
           <button
             className="navbar-toggler"
