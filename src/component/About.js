@@ -41,15 +41,15 @@ const About = () => {
             <hr />
             <div className="navbar navbar-expand-lg navbar-light bg-white  ">
               <div className="navbar-nav mx-auto mb-2 mb-lg-0 ">
-               // <a href="https://instagram.com/naman_koolwal">
+                 {/* <a href="https://instagram.com/naman_koolwal"> */}
                   <i className="fa fa-instagram fa-lg me-5"></i>
-               // </a>
-               // <a href="https://www.facebook.com/naman.koolwal">
+                {/* </a> */}
+                {/* <a href="https://www.facebook.com/naman.koolwal"> */}
                   <i className="fa fa-facebook fa-lg me-5"></i>
-               // </a>
-               // <a href="https://twitter.com/NAMANKH31936926?t=NgPyoRrpwAqAYonRRIUXxA&s=08">
+                {/* </a> */}
+                <a href="https://twitter.com/NAMANKH31936926?t=NgPyoRrpwAqAYonRRIUXxA&s=08">
                   <i className="fa fa-twitter fa-lg me-5"></i>
-               // </a>
+                </a>
                 <a href="https://github.com/namankoolwal">
                   <i className="fa fa-github fa-lg me-5"></i>
                 </a>
