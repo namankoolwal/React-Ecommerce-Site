@@ -17,9 +17,9 @@ const Cart = () => {
     const emptyCart = () => {
         return(
             <div className="px-4 my-5 bg-light rounded-3 py-5">
-                <div className="container py-4">
-                    <div className="row">
-                        <h3 height="900px">Your Cart is Empty</h3>
+                <div className="container py-5 my-5">
+                    <div className="row my-4">
+                        <h3 height="1200px">Your Cart is Empty</h3>
                     </div>
                 </div>
             </div>
